@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    -webkit-user-select: none;       
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-family: monospace;
+    background-color: #a171cb;
+}
+.pad {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 128px;
+}
+.btn {
+    width: calc((100% / 5));
+    text-align: center;
+    background-color: olivedrab;
+    color: white;
+    height: 40px;
+    padding-top: 16px;
+    font-size: 18px;
+}
+.btn:active {
+    background-color: white;
+    color: black;
+}
+.a { background-color: #1b85b8; } /* Numeros */
+.b { background-color: #6f6569; } /* C/AC */
+.c { background-color: #559e83; } /* Operações */
+.d { background-color: #ae5a41; } /* Caracteres especiais */
+.e {
+    background-color: #1a82b4;
+    background: linear-gradient(to bottom, #1b85b8, #197cac);
+} /* Variáveis */
+.f { background-color: #a171cb; } /* Funções */
+.i {
+    background-color: grey;
+    width: calc((200% / 5));
+} /* Igual */
+#birl {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 28px 0px;
+    height: 72px;
+    background-color: #444;
+    color: white;
+    width: 100%;
+    text-align: right;
+    overflow: scroll;
+    white-space: nowrap;
+}
+#for {
+    font-size: 20px;
+}
+#res {
+    font-size: 28px;
+}
