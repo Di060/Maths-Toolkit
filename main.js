@@ -47,7 +47,6 @@ function update() {
     baba = baba.replace(/ .rai/g, '&radic;');
     baba = baba.replace(/ .log/g, 'log');
     document.getElementById('for').innerHTML = baba;
-    document.getElementById("res").style.left = String(event.accelerationIncludingGravity.x * 10) + 'px;';
 }
 
 function set(x) {
